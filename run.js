@@ -1,4 +1,4 @@
-const MusicBot = require('discord-musicbot');
+!const MusicBot = require('discord-musicbot');
 
 const config = {
   // these 3 are always required.
@@ -9,7 +9,7 @@ const config = {
   // override any default settings.
   // see `src/config/settings.js` for an idea of structure here.
   settings: {
-    commandPrefix: '!!',
+    commandPrefix: '!!!',
   },
 
   // customize the replies you receive.
