@@ -4,7 +4,7 @@ const config = {
   // these 3 are always required.
   token: 'NDI3NDQ3NDA0ODE2NjI5NzYx.DZvDYQ.jCCe7RdczQLKDfsXT07NYO-G6no',
   serverId: '417051641678790657',
-  textChannelId: '421835822711701506''421031321398149130',
+  textChannelId: '421835822711701506',
 
   // override any default settings.
   // see `src/config/settings.js` for an idea of structure here.
@@ -51,8 +51,7 @@ const config = {
     users: {
       '206037786808156160': 'admin',
       '342281001067741184': 'admin',
-      '231527605960966144': 'poweruser',
-      'YET ANOTHER USER ID': 'nogroup', // undefined group, will use global perms.
+      '231527605960966144': 'poweruser', // undefined group, will use global perms.
     },
   }
 };
